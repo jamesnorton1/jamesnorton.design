@@ -1,0 +1,11 @@
+{
+  "name": "jamesnorton.design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "cd public && wget https://test-jamesnortondesign.webflow.io/ --recursive --page-requisites --html-extension --convert-links -xnH -e robots=off && firebase deploy"
+  },
+  "author": "",
+  "license": "ISC"
+}
